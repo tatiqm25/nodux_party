@@ -87,14 +87,11 @@ hooks = ["nombre_de_contacto", "fecha_de_registro", "fecha_de_nacimiento",
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"Customer": {
-# 		"validate": "nodux_party.customer.validate_tax_id",
-#         "validate": "nodux_party.customer.create_supplier",
-#         "validate": "nodux_party.customer.validate_email",
-#         "validate": "nodux_one.customer.remove_spaces"
-# 	}
-# }
+doc_events = {
+ 	"Customer": {
+ 		"validate": "nodux_party.customer.validate"
+ 	}
+}
 
 
 # Scheduled Tasks

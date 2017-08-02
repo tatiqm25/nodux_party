@@ -69,7 +69,7 @@ def create_supplier(doc):
 			    "supplier_name": doc.customer_name,
 				"comercial_name": doc.comercial_name,
 				"type_document": doc.type_document,
-				"country": doc.territory,
+				"country": doc.country,
 				"address": doc.street,
 				"email" : doc.email,
 				"phone" : doc.phone,

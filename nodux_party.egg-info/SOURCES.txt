@@ -4,6 +4,7 @@ license.txt
 requirements.txt
 setup.py
 nodux_party/__init__.py
+nodux_party/customer.py
 nodux_party/hooks.py
 nodux_party/modules.txt
 nodux_party/patches.txt
@@ -17,6 +18,8 @@ nodux_party/config/__init__.py
 nodux_party/config/desktop.py
 nodux_party/config/docs.py
 nodux_party/nodux_party/__init__.py
+nodux_party/nodux_party/custom/customer.json
+nodux_party/nodux_party/custom/supplier.json
 nodux_party/templates/__init__.py
 nodux_party/templates/generators/__init__.py
 nodux_party/templates/pages/__init__.py

@@ -11,7 +11,7 @@
    "creation": "2017-06-05 16:20:10.944536",
    "default": null,
    "depends_on": null,
-   "description": null, 
+   "description": null,
    "docstatus": 0,
    "dt": "Customer",
    "fieldname": "nombre_de_contacto",
